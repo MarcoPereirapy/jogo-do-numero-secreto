@@ -8,7 +8,6 @@ let numeroTentativas = 1;
 function exibeTextoNaTela(tag, texto) {
     let campoNoHtml = document.querySelector(tag);
     campoNoHtml.innerHTML = texto;
-    responsivevoice.speak(texto, 'Brazilian Portuguese Female',{rate:1.2});
 }
 
 function mesagemInicial() {
